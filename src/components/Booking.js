@@ -3,7 +3,7 @@ import BookingForm from './BookingForm'
 
 function Booking(props) {
   return (
-    <BookingForm dispatch={props.dispatch} SubmitForm={props.SubmitForm} />
+    <BookingForm availableTimes={props.availableTimes} dispatch={props.dispatch} SubmitForm={props.SubmitForm} />
   )
 }
 

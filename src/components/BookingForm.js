@@ -27,12 +27,10 @@ function BookingForm(props) {
    <div>
     <label htmlFor="res-time">Choose time</label>
    <select id="res-time" value={times} onChange={(e)=>setTimes(e.target.value)}>
-      <option>17:00</option>
-      <option>18:00</option>
-      <option>19:00</option>
-      <option>20:00</option>
-      <option>21:00</option>
-      <option>22:00</option>
+      <option>Select a Time</option>
+      {
+        props.availableTimes.availableTimes.map(availableTimes=>{return <option key={availableTimes}>{availableTimes}</option>})
+      }
    </select>
    </div>
    <div>
