@@ -1,8 +1,9 @@
 import React from 'react'
+import BookingForm from './BookingForm'
 
-function Booking() {
+function Booking(props) {
   return (
-    <div>Booking</div>
+    <BookingForm dispatch={props.dispatch} SubmitForm={props.SubmitForm} />
   )
 }
 
