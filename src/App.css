@@ -316,3 +316,7 @@ footer ul li{
 .hidden{
   display: none;
 }
+
+.confirm{
+  padding-left: 15%;
+}
