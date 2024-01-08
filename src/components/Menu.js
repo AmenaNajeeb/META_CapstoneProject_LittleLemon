@@ -13,7 +13,6 @@ function Menu() {
     <div className='cards'>
       {
         recipes.map(recipe =><div key={recipe.id} className='menu-items'>
-          {/* <h2>{recipe.title}</h2> */}
           <img src={recipe.image} alt={recipe.title} />
           <div className='menu-content'>
           <div className='heading'>
