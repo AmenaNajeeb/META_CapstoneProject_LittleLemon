@@ -45,7 +45,7 @@ function BookingForm(props) {
    </select>
    </div>
    <div className='btnReceive'>
-   <input aria-label='onclick' type="submit" value="Make Your reservation" />
+   <input aria-label="On Click" type="submit" value="Make Your reservation" />
                     </div>
                 </fieldset>
             </form>
